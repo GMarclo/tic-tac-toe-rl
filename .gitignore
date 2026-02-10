@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Środowisko wirtualne
+.venv/
+.env
+
+# Modele
+*.pth
+
+# IDE
+.vscode/
+.idea/
