@@ -46,7 +46,7 @@ class TicTacToe:
         return self.board.copy(), reward, self.game_over
 
     def check_win(self):
-        """Function to check if current player won"""
+        """Function to check if current player has won"""
         b = self.board.reshape(3, 3)
         player = self.current_player
 
